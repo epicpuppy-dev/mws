@@ -1,0 +1,31 @@
+{
+  "name": "mws",
+  "version": "1.0.0",
+  "description": "MediaWiki Script - A MediaWiki API scripting library",
+  "keywords": [
+    "library"
+  ],
+  "homepage": "https://github.com/epicpuppy-dev/mws#readme",
+  "bugs": {
+    "url": "https://github.com/epicpuppy-dev/mws/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/epicpuppy-dev/mws.git"
+  },
+  "license": "MIT",
+  "author": "EpicPuppy613",
+  "type": "module",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@epicpuppy-dev/script-utils": "^1.0.3",
+    "mwn": "^2.0.4"
+  },
+  "devDependencies": {
+    "typescript": "^5.8.2",
+    "vitest": "^3.0.9"
+  }
+}
